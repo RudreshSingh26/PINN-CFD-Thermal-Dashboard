@@ -48,6 +48,6 @@ Total Loss = Loss_PDE + 10 * Loss_Initial + 10 * Loss_Boundary
 
 This optimization project was designed and engineered as a pre-term portfolio exploration ahead of entering the **Thermal Stream (Department of Mechanical Engineering) at the Indian Institute of Science (IIT) Madras**. 
 
-* **Developer:** [Your Name]
-* **LinkedIn:** [Your LinkedIn URL]
+* **Developer:** Rudresh Singh
+* **LinkedIn:** www.linkedin.com/in/rudresh-singh-792175229
 * **Target Domain:** Physics-ML, Automated Scientific Workflows, Surrogate Modeling, AI-Accelerated CFD.
