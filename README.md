@@ -22,8 +22,10 @@ The system models a solid domain subjected to a sinusoidal initial temperature d
 ### 2. Deep Learning Solver (Physics-Informed Neural Network)
 * **Topology:** 3-layer deep Multi-Layer Perceptron (MLP) mapping continuous coordinates $(x, t) \rightarrow u$.
 * **Activation Operator:** Infinitely differentiable Hyperbolic Tangent ($\text{Tanh}$) curves designed to compute clean calculus gradients.
-* **Loss Compilation:** Employs exact Automatic Differentiation (`torch.autograd.grad`) bypassing rigid space-time geometric grids via a composite multi-headed loss profile:
-  $$\mathcal{L}_{\text{total}} = \mathcal{L}_{\text{PDE}} + 10 \cdot \mathcal{L}_{\text{Initial}} + 10 \cdot \mathcal{L}_{\text{Boundary}}$$
+* **Loss Compilation:** Employs exact Automatic Differentiation (torch.autograd.grad) bypassing rigid space-time geometric grids via a composite multi-headed loss profile: 
+
+Total Loss = Loss_PDE + 10 * Loss_Initial + 10 * Loss_Boundary
+
 
 ---
 
